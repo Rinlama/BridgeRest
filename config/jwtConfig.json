@@ -1,0 +1,7 @@
+{
+  "dsJWTClientId": "00bc7605-404d-434f-a907-2e6edd8bf0fa",
+  "impersonatedUserGuid": "b4db6d32-ef6d-4dd6-adf8-a536185736b0",
+  "privateKeyLocation": "./private.key",
+  "dsOauthServer": "https://account-d.docusign.com",
+  "redirectUri": "http://localhost:3000/auth/docusign/callback"
+}

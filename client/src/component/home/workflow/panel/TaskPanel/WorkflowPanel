@@ -1,0 +1,77 @@
+// import React, { useEffect, useState } from "react";
+// import {
+//   Button,
+//   Card,
+//   Form as BootstrapForm,
+//   Form,
+//   InputGroup,
+//   ListGroup,
+//   Table,
+// } from "react-bootstrap";
+// import { useDispatch, useSelector } from "react-redux";
+// import { useNavigate } from "react-router-dom";
+// import { IState } from "../../../../../store/store";
+
+// interface ITaskPanel {
+//   taskMessageHandler: any;
+//   setTaskMessageHandler: any;
+// }
+
+// function WorkflowPanel() {
+//   const { token } = useSelector((state: IState) => state.auth.data);
+//   const navigate = useNavigate();
+//   const dispatch = useDispatch();
+
+//   const [task, setTask] = useState<any>([]);
+
+//   return (
+//     <Card className="rounded-0" style={{ height: "725px" }}>
+//       <Card.Header className="py-3 fw-semibold">
+//         <span>Create Workflow</span>
+//       </Card.Header>
+//       <Card.Body className="p-0">
+//         <div className="d-flex justify-content-between m-3">
+//           <Button
+//             variant="primary"
+//             size="sm"
+//             onClick={() => {
+//               setTask([...task, ...[{ er: "1" }]]);
+//               // setTask([...task, {
+//               //   task:
+//               // }])
+//             }}
+//           >
+//             Add Task
+//           </Button>
+//           <Button variant="primary mx-2" size="sm">
+//             Save Task
+//           </Button>
+//         </div>
+//         <Table striped bordered hover>
+//           <thead>
+//             <tr>
+//               <th>#</th>
+//               <th>Task</th>
+//               <th>Send To</th>
+//             </tr>
+//           </thead>
+//           <tbody>
+//             {task.map((d: any, index: number) => (
+//               <tr>
+//                 <td>{index + 1}</td>
+//                 <td>{`Task` + 1}</td>
+//                 <td>
+//                   <InputGroup size="sm" className="mb-3">
+//                     <Form.Control aria-label="Small" />
+//                   </InputGroup>
+//                 </td>
+//               </tr>
+//             ))}
+//           </tbody>
+//         </Table>
+//       </Card.Body>
+//     </Card>
+//   );
+// }
+
+// export default WorkflowPanel;

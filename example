@@ -1,0 +1,32 @@
+NODE_ENV=development
+
+#this auth as token on survey 123 webhook 
+ESRI_BASIC_AUTH_BASE64="YWRtaW46cGFzc3dvcmQ="
+
+MONGODB_URI=""
+
+PORT=3002
+
+
+# MediaValet Credentials
+MediaValet_CLIENT_ID =
+
+MediaValet_CLIENT_SECRET=
+
+MediaValet_REDIRECT_URI=
+
+MediaValet_SUBSCRIPTION_KEY=
+
+
+# DocuSign Credentials
+Docusign_CLIENT_ID =
+
+Docusign_CLIENT_SECRET=
+
+Docusign_REDIRECT_URI=
+
+#docusign 
+
+DocuSign_Base_Url=
+DocuSign_Api_Version=
+DocuSign_Account_ID=
